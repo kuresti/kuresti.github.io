@@ -17,9 +17,12 @@ header {
     margin-top: -150px;
 }
 
+h2 {
+    text-decoration-line: underline
+}
 
-Assignments {
-    margin-top: -100px;
+Section {
+    margin-top: -150px;
 }
 
 header,
