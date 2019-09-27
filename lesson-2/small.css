@@ -2,3 +2,6 @@
 main {
     display: grid;
 }
+p {
+    text-align: left;
+}
