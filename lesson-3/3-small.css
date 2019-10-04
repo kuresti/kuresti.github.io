@@ -43,8 +43,11 @@ nav ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #A4E771;
+    border-radius: 5px;
     display: flex;
     padding: 0;
+    margin: 0;
+    
 }
 nav li {
     flex: 1 1 100%;
@@ -54,8 +57,12 @@ nav li a:hover {
     background-color: #68BA29;
 }
 nav li a {
+    display: block;
     color: #255B87;
     font-weight: 900;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 5px 10px;
 }
 nav li a:link {
     text-decoration: none;
