@@ -30,7 +30,7 @@ header, footer {
     border: solid thin black;
 }
 .flex-container {
-    display: flex;
+    display: flex-left;
     padding: 1rem;
     margin: 0 auto;
 }
