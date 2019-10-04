@@ -29,6 +29,11 @@ header, footer {
     border-radius: 10px;
     border: solid thin black;
 }
+.flex-container {
+    display: flex;
+    padding: 1rem;
+    margin: 0 auto;
+}
 p {
     text-align: left;
 }

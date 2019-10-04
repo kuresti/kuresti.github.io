@@ -1,0 +1,22 @@
+/*Default rules*/
+/*rules for body of pg*/
+body {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+header {
+    padding: .5rem 2%;
+}
+header h1 {
+    margin: 0;
+    font-size: 1rem;
+}
+header h2 {
+    margin: 0;
+    font-size: .5rem;
+}
+.nav {
+    display: flex-center;
+    box-sizing: border-box;
+}

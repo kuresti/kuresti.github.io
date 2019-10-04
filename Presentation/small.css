@@ -1,4 +1,22 @@
 body {
     font-family: 'Notable', 'Roboto', sans-serif;
     font-size: 18px;
+    line-height: 1.5;
+}
+
+header {
+    font-family: 'Notable';
+    background-color: pink;
+    padding: .5rem 2%;
+
+}
+
+header, nav, main {
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+Nav, main {
+    font-family: 'Roboto';
+
 }
