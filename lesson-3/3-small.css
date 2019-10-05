@@ -67,3 +67,20 @@ nav li a {
 nav li a:link {
     text-decoration: none;
 }
+.blue-bolt {
+    background-color: #00AFF7;
+}
+.little-boy-blue {
+    background-color: #68C5DB;
+}
+.steel-blue {
+    background-color: #448FA3;
+}
+.maastricht-blue {
+    background-color: #02182B;
+    color: whitesmoke;
+}
+.rusty-red {
+    background-color: #D7263D;
+    color: whitesmoke;
+}
