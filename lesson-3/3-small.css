@@ -84,3 +84,23 @@ nav li a:link {
     background-color: #D7263D;
     color: whitesmoke;
 }
+.h1-font {
+    font-family: 'Alegreya Sans', sans-serif; 
+    line-height: 1.25;
+}
+#navigation-font {
+    font-family: Roboto;
+    line-height: 1;
+}
+#h2-font {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 1;
+}
+#h3-font {
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 1;
+}
+#p-font {
+    font-family: Roboto;
+    line-height: 1;
+}
