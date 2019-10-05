@@ -38,13 +38,15 @@ header, footer {
     align-items: flex-start;
     
 }
+nav {
+    font-size: 1rem;
+    background-color:  #A4E771;
+}
 
 nav ul {
     list-style-type: none;
     overflow: hidden;
-    background-color: #A4E771;
     border-radius: 5px;
-    display: flex;
     padding: 0;
     margin: 0;
     
