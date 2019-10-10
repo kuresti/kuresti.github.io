@@ -1,0 +1,71 @@
+body {
+    background-color: #448FA3;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #D7263D;
+    margin-left: 20px;
+    font-size: .8rem;
+}/*Come back to nav to style*/
+nav {
+    margin: 0 auto;
+    /*For the max-width I may want to change to 900px for styling*/
+    max-width: 1080px;
+    background-color: #02182B;
+}
+.navigation {
+list-style: none;
+text-align: left;
+padding: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+/*was the whole nav suppose to disappear?*/
+.navigation li {
+    display: none;
+}
+.navigation a {
+    display: block;
+    color: #68C5DB;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: whitesmoke;
+    background-color: #D7263D;
+    font-weight: 700px;
+}
+/* the onclick JS toggles the .responsive
+class from display none (.navigationli)
+to display blcok because the responisve
+class is added to the end of the class list
+like this in HTML #6.
+<ul class="navigation responsive">*/
+.responsive li {
+    display: block;
+}
+
