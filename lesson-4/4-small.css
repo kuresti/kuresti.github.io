@@ -9,6 +9,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Alegreya, sans-serif;
 }
 footer {
     background-color: #02182B;
@@ -45,13 +46,13 @@ nav {
 }
 .navigation {
 list-style: none;
-text-align: left;
+text-align: center;
 padding: 0;
 }
 .navigation li:first-child {
     display: block;
 }
-/*was the whole nav suppose to disappear?*/
+
 .navigation li {
     display: none;
 }
@@ -61,6 +62,7 @@ padding: 0;
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
+    
 }
 .navigation a:hover {
     color: whitesmoke;
