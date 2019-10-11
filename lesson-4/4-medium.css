@@ -13,7 +13,7 @@
     .navigation {
         display: flex;
     }
-    navigation li:first-child {
+    .navigation li:first-child {
         display: none;
     }
     .navigation li {
