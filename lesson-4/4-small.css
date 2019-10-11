@@ -85,14 +85,15 @@ h2 {
 main {
     padding: 20px;
     margin: 5px;
+    
 }
 .cBox {
     display: block;
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 70%;
+    margin: 10px auto;
     border: thin solid #02182B;
     border-radius: 5px;
-    padding: 15px;
+    padding: 20px;
     color: #02182B;
-    background-color: white;
+    background-color: whitesmoke;
 }
