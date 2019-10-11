@@ -65,7 +65,7 @@ padding: 0;
 .navigation a:hover {
     color: whitesmoke;
     background-color: #D7263D;
-    font-weight: 700px;
+    font-weight: 700;
 }
 /* the onclick JS toggles the .responsive
 class from display none (.navigationli)
