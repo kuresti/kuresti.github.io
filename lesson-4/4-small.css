@@ -10,6 +10,14 @@ header {
     align-items: center;
     justify-content: center;
 }
+footer {
+    background-color: #02182B;
+    color: #68C5DB;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+    max-width: 1080px;
+}
 header img {
     width: 100%;
     height: auto;
@@ -73,6 +81,10 @@ h2 {
     color: whitesmoke;
     font-weight: bold;
     text-align: center;
+}
+main {
+    padding: 20px;
+    margin: 5px;
 }
 .cBox {
     display: block;
