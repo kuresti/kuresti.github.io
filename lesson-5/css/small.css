@@ -108,7 +108,7 @@ main {
 }
 
 .hero {
-    display: grid;
+    display: block;
     position: relative;
 }
 #idaho {
@@ -117,21 +117,37 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin: auto;
-    max-width: 100%;
-    height: 0 auto;
+    width: 100%;    
     padding: 10px;
     background-color: whitesmoke;
     border: 3px solid #02182B;
-    -webkit-box-shadow: 5px 5px 15px 5px #02182B;
     box-shadow: 5px 5px 15px 5px #02182B;
 }
+.dailySummary {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    background: rgb(225, 239, 243);
+    color: #02182B;
+    font-weight: 700;
+    opacity: .5;
+    border-radius: 5px;
+    border: thin solid #02182B;
+    padding: .5rem;
+    box-shadow: 0 0 30px #448FA3;
 
+}
+.fcontainer {
+    display: none;
+}
+
+/*
 .dailySummary {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 75px;
     background: #448FA3;
     color: #02182B;
     opacity: .8;
@@ -142,6 +158,7 @@ main {
 
 }
 #ds {
+    grid-column: span 2;
     margin: 0 auto;
     max-width: 65%;
     padding: .5rem;
@@ -152,7 +169,7 @@ main {
 }
 .dSummary2 {
     font-weight: 550;
-}
+}*/
 
 .cBox {
     display: block;

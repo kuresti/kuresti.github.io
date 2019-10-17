@@ -33,8 +33,6 @@
     .navigation a {
 
         text-align: center;
-
-
     }
 
     .navigation a:hover {
@@ -42,4 +40,36 @@
         background-color: #D7263D;
         font-weight: 700;
     }
+    .fcontainer {
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+    .fcontainer h2 {
+        margin: 0;
+    }
+    .forecast {
+        max-width: 500px;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .d {
+        background-color: #D7263D;
+        color: whitesmoke;
+        font-size: 1rem;
+        border: thin solid #02182B;
+    }
+    .w {
+        border-left: thin solid #02182B;
+        border-right: 1px solid #02182B;
+        background-color: #00AFF7;
+    }
+    .t {
+        background-color: #D7263D;
+        color: whitesmoke;
+        border: thin solid #02182B;
+    }
+    
 }
