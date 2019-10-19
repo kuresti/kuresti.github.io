@@ -170,10 +170,14 @@ main {
     color: #02182B;
     font-family: Alegreya, sans-serif;
 }
+.map {
+    display: none;
+}
 .contact {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     padding: 20px;
-    margin-left: 425px;
+    margin-left: 250px;
     align-items: center;
     max-width:70%;
 }

@@ -71,5 +71,8 @@
         color: whitesmoke;
         border: thin solid #02182B;
     }
+    .map {
+        display: block;
+    }
     
 }
