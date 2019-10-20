@@ -45,6 +45,15 @@ header img {
     margin-left: 20px;
     font-size: .8rem;
 }
+div#message {
+    background-color: #D7263D;
+    font-family: Alegreya, sans-serif;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+}
+div.showme {display: block;}
+div.hideme {display: none;}
 .active  {
     background: #D7263D;
     color: whitesmoke;

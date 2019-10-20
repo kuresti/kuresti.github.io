@@ -23,14 +23,20 @@
 <body>
     <!--Header with logo to the left and a motto-->
     <header>
+        
         <picture>
             <img src="images/Umbrella-128.png" alt="Up To Date Weather Logo">
         </picture>
         <section class="headings">
             <h1>Up To Date Weather</h1>
             <div class="motto">Accurate weather for every season!</div>
+        
         </section>
     </header>
+    <div id="message" >Come enjoy Preston Pancakes in the Park! Saturday at 9:00 a.m. 
+            at the city park pavillion. </div>
+    
+    
     <!--Nav bar with a responsive hamburger menu-->
     <nav>
         <ul class="navigation">
@@ -153,6 +159,20 @@ changes-->
         </p>
     </footer>
     <script src="js/menuToggle.js"></script>
+    <script>
+        const today = new Date();
+        console.log(today);
+
+        const dayNumber = today.getDay();
+        console.log(dayNumber);
+
+        const element = document.getElementById("message");
+        if (dayNumber == 6) {
+            element.classList.add("showme");
+        } else { element.classList.add("hideme");
+
+        }
+    </script>
 
 </body>
 
