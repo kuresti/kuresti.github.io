@@ -123,10 +123,10 @@ main {
 .hero {
     display: grid;
     position: relative;
-   
     padding: 1 rem;
     margin: 5em;
     box-shadow: 5px 5px 15px #02182B;
+    max-width: 100%;
     
 }
 
@@ -134,8 +134,8 @@ main {
     
     position: relative;     
     max-width: 100%;  
-    padding: 0;  
     margin: 0 auto; 
+    
     
 }
 
@@ -145,7 +145,7 @@ main {
     max-width: 100%;
     position: absolute;
     top: 2em;
-    left: 3em;
+    left: 5em;
     background: rgb(225, 239, 243);
     color: #02182B;
     font-size: .8em;
