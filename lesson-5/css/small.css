@@ -118,43 +118,48 @@ main {
     padding: 0px;
     margin: 0 auto;
 }
+ 
 
 .hero {
-    display: block;
+    display: grid;
     position: relative;
+    border: 3px solid #02182B;
+    padding: 1 rem;
+    margin: 5em;
+    background-color: whitesmoke;
+    
 }
+
 #idaho {
     display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin: auto;
-    width: 70%;    
-    padding: 10px;
+    position: relative;     
+    max-width: 100%;     
     background-color: whitesmoke;
-    border: 3px solid #02182B;
-    box-shadow: 5px 5px 15px 5px #02182B;
+    box-shadow: 5px 5px 15px #02182B;
 }
 
 .dailySummary {
-    height: 230px;
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 100%;
     position: absolute;
     top: 2em;
-    left: 20em;
+    left: 2em;
     background: rgb(225, 239, 243);
     color: #02182B;
-    font-size: .8rem;
-    font-weight: 700;
-    opacity: .5;
-    border-radius: 5px;
-    border: thin solid #02182B;
+    font-size: .8em;
+    opacity: .8;
+    border-radius: 1em;    
     padding: .5rem;
-    box-shadow: 0 0 30px #448FA3;
+  
 }
-#ds {
-    color:  #02182B;
-    font-size: 1rem;
+.dSummary1 {
+    text-align: right;
 }
+.dSummary2 {
+    text-align: left;
+}
+
 .fcontainer {
     display: none;
 }
@@ -183,11 +188,10 @@ main {
     display: none;
 }
 .contact {
-    display: grid;
-    grid-template-columns: auto auto;
+    
+  
     padding: 20px;
-    margin-left: 250px;
-    align-items: center;
+    
     max-width:70%;
 }
 .info {

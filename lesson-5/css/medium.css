@@ -74,5 +74,11 @@
     .map {
         display: block;
     }
+    .contact {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 250px;
+
+    }
     
 }
