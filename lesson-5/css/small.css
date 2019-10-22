@@ -123,7 +123,7 @@ main {
 .hero {
     display: grid;
     position: relative;
-    border: 3px solid #02182B;
+   
     padding: 1 rem;
     margin: 5em;
     
