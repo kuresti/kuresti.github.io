@@ -123,20 +123,18 @@ main {
 .hero {
     display: grid;
     position: relative;
-    padding: 1rem;
-    margin: 5em;
+    /*padding: 0;*/
+    /*margin: 0;*/
     box-shadow: 5px 5px 15px #02182B;
-    max-width: 100%;
+   /* max-width: 100%;*/
     
 }
 
 #idaho {
     
     position: relative;     
-    max-width: 100%;  
-    margin: 0 auto; 
-    
-    
+    width: 100%;  
+    margin: 0 auto;     
 }
 
 .dailySummary {
