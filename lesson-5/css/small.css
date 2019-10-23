@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: whitesmoke;
-    padding:  5px 0;
+    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,12 +28,12 @@ header img {
     height: auto;
 }
 
-.headings {
+section .headings {
     display: flex;
     flex-direction: column;
 }
 
-.headings h1 {
+section .headings, h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
 }
@@ -45,6 +45,7 @@ header img {
     margin-left: 20px;
     font-size: .8rem;
 }
+
 div#message {
     background-color: #D7263D;
     font-family: Alegreya, sans-serif;
@@ -52,16 +53,22 @@ div#message {
     font-size: 1.5rem;
     text-align: center;
 }
-div.showme {display: block;}
-div.hideme {display: none;}
-.active  {
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+.active {
     background: #D7263D;
     color: whitesmoke;
 }
-    /*Come back to nav to style*/
+
 nav {
     margin: 0 auto;
-    /*For the max-width I may want to change to 900px for styling*/
     max-width: 1080px;
     background-color: #02182B;
 }
@@ -118,43 +125,47 @@ main {
     padding: 0px;
     margin: 0 auto;
 }
- 
 
-.hero {
-    display: grid;
+.hero, section, article, .contact {
+    padding: 2em;
+    max-width: 70%;
+    margin: 0  auto;
+    background-color: #68C5DB;
+    border: 3px solid #02182B;
+    box-shadow: 5px 5px 15px 5px #02182B;
+}
+.hero  {
+    
     position: relative;
-    /*padding: 0;*/
-    /*margin: 0;*/
-    box-shadow: 5px 5px 15px #02182B;
-   /* max-width: 100%;*/
     
+}
+.hero img {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
 }
 
-#idaho {
-    
-    position: relative;     
-    width: 100%;  
-    margin: 0 auto;     
-}
 
 .dailySummary {
     display: grid;
     grid-template-columns: auto auto;
     max-width: 100%;
     position: absolute;
-    top: 2em;
+    top: 5em;
     left: 5em;
     background: rgb(225, 239, 243);
     color: #02182B;
     font-size: .8em;
     opacity: .8;
-    border-radius: 1em;    
+    border-radius: 1em;
     padding: .5rem;
-  
+
 }
+
 .dSummary1 {
     text-align: right;
 }
+
 .dSummary2 {
     text-align: left;
 }
@@ -162,37 +173,48 @@ main {
 .fcontainer {
     display: none;
 }
+article {
+    margin-top: 20px;
+}
 .bird {
     float: right;
     border-radius: 5px;
     border: thin solid #02182B;
-    box-shadow: 5px 5px  #02182B;
+    box-shadow: 5px 5px #02182B;
     margin-left: 1px;
-    
+
 }
-.birdWatch {
+
+/*.birdWatch {
     display: block;
-    padding: 2rem ;
+    padding: 2rem;
     max-width: 70%;
     margin: 0 auto;
     background-color: #68C5DB;
     border: 3px solid #02182B;
     box-shadow: 5px 5px 15px 5px #02182B;
-}
+}*/
+
 .birdWatch h1 {
     color: #02182B;
     font-family: Alegreya, sans-serif;
 }
+
 .map {
     display: none;
 }
+
 .contact {
-    
-  
+    display: flex;
+    text-align: left;
     padding: 20px;
-    
-    max-width:70%;
+    margin: 50px 50px 50px 50px;
+    border: none;
+    box-shadow: none;
+    background-color: #448FA3;
+  
 }
+
 .info {
     padding: 25px;
 }
