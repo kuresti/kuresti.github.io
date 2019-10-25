@@ -1,4 +1,4 @@
 
 WebFont.load({
     google: {
-        families: ["alegreya","sansSerif"]}});
+        families: ['alegreya','sans serif']}});
