@@ -10,7 +10,7 @@
     <meta name="description" content="Provides up to date weather forecasting for the Presont, Id area.">
     <title>Up To Date Weather, Preston</title>
     <!--Link to Google Font page-->
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&7cRoboto&display=swap" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&7cRoboto&display=swap" rel="stylesheet">-->
     <!--Link to favicon-->
     <link rel="shortcut icon" href="favicon.ico">
     <!--Style Sheet Links-->
@@ -56,8 +56,19 @@
     <main>
         <h2>Preston, Idaho</h2>
         <div class="hero">
-           <picture><img src="images/idaho-landscape-mountains-1694642(1).jpg"
-                    alt="Southeast Idaho mountains"></picture>
+           <!--<picture><img src="images/idaho-landscape-mountains-1694642(1).jpg"
+                    alt="Southeast Idaho mountains"></picture>-->
+        <picture>
+            <source srcset="images/cit230_image_franklinOriginal200.jpg" media="(Min-width: 
+            300px) and (max-width: 499px)">
+            <source srcset="images/cit230_image_franklinOriginal500.jpg" media="(min-width:
+            600px) and (max-width: 799px)">
+            <source srcset="images/cit230_image_franklinOriginal800.jpg" media="(min-width:
+            800px) and (max-width: 999px)">
+            <source srcset="images/cit230_image_franklinOriginal1100.jpg" media="(min-width: 
+            100px)">
+           <img src="images/cit230_image_franklinOriginal200.jpg" alt="Sunny Day">
+        </picture>
             <div class="dailySummary">
                 <div class="dSummary1">
                     <h3>Daily &nbsp; </h3>
@@ -68,14 +79,16 @@
                 <div class="dSummary1">Currently: &nbsp;</div>
                 <div class="dSummary2">Partly Cloudy</div>
                 <div class="dSummary1">High: &nbsp;</div>
-                <div class="dSummary2">70 &#8457;</div>
+                <div class="dSummary2"><span id="ht">39</span> &#8457;</div>
+                <div class="dSummary1">Wind Chill: &nbsp;</div>
+                <div class="dSummary2"><span id="windChill"></span></div>
                 <div class="dSummary1">Precipitation: &nbsp;</div>
                 <div class="dSummary2">0%</div>
                 <div class="dSummary1">Humidity: &nbsp;</div>
                 <div class="dSummary2">23%</div>
                 <div class="dSummary1">Wind: &nbsp;</div>
-                <div class="dSummary2">7 mph</div>
-
+                <div class="dSummary2"><span id="ws">7</span> mph</div>
+               
 
 
 
@@ -194,6 +207,10 @@ changes-->
 
         }
     </script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.28/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+
+
 
 </body>
 

@@ -250,14 +250,8 @@ article {
     font-weight: 550;
 }*/
 
-.cBox {
-    display: block;
-    max-width: 70%;
-    margin: 10px auto;
-    border: thin solid #02182B;
-    border-radius: 5px;
-    padding: 20px;
-    color: #02182B;
-    background-color: whitesmoke;
-    Font-family: Roboto;
-}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
