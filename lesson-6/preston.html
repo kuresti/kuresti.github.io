@@ -56,19 +56,19 @@
     <main>
         <h2>Preston, Idaho</h2>
         <div class="hero">
-           <!--<picture><img src="images/idaho-landscape-mountains-1694642(1).jpg"
+            <!--<picture><img src="images/idaho-landscape-mountains-1694642(1).jpg"
                     alt="Southeast Idaho mountains"></picture>-->
-        <picture>
-            <source srcset="images/cit230_image_franklinOriginal200.jpg" media="(Min-width: 
+            <picture>
+                <source srcset="images/cit230_image_franklinOriginal200.jpg" media="(Min-width: 
             300px) and (max-width: 499px)">
-            <source srcset="images/cit230_image_franklinOriginal500.jpg" media="(min-width:
+                <source srcset="images/cit230_image_franklinOriginal500.jpg" media="(min-width:
             600px) and (max-width: 799px)">
-            <source srcset="images/cit230_image_franklinOriginal800.jpg" media="(min-width:
+                <source srcset="images/cit230_image_franklinOriginal800.jpg" media="(min-width:
             800px) and (max-width: 999px)">
-            <source srcset="images/cit230_image_franklinOriginal1100.jpg" media="(min-width: 
+                <source srcset="images/cit230_image_franklinOriginal1100.jpg" media="(min-width: 
             100px)">
-           <img src="images/cit230_image_franklinOriginal200.jpg" alt="Sunny Day">
-        </picture>
+                <img src="images/cit230_image_franklinOriginal200.jpg" alt="Sunny Day">
+            </picture>
             <div class="dailySummary">
                 <div class="dSummary1">
                     <h3>Daily &nbsp; </h3>
@@ -88,7 +88,7 @@
                 <div class="dSummary2">23%</div>
                 <div class="dSummary1">Wind: &nbsp;</div>
                 <div class="dSummary2"><span id="s">7</span> mph</div>
-               
+
 
 
 
@@ -188,31 +188,17 @@ changes-->
     <footer>
         <p>&copy; 2019 | Up To Date Weather | Preston, ID | Kimberly Uresti</p>
         <p id="todaysDate">
-            <script src="js/lastModified.js"></script>
+
         </p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/lastModified.js"></script>
     <script src="js/menuToggle.js"></script>
-    <script>
-        const today = new Date();
-        console.log(today);
+    <script src="js/pancakeBanner.js"></script>
 
-        const dayNumber = today.getDay();
-        console.log(dayNumber);
-
-        const element = document.getElementById("message");
-        if (dayNumber == 6) {
-            element.classList.add("showme");
-        } else {
-            element.classList.add("hideme");
-
-        }
-    </script>
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script src="js/webfontload.js"></script>
-<script src="js/windchill.js"></script>
-
-
-
+    
 </body>
 
 </html>
