@@ -8,7 +8,7 @@
      document.getElementById('chill').textContent = f;
 
   if (f <= 50 && s > 3) {
-      document.getElementById('chill').textContent = f.toFixed(0) ="\xB0F";
+      document.getElementById('chill').textContent = f.toFixed(0);
   }
   else {
       document.getElementById('chill').textContent = "NA";
