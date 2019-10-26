@@ -120,9 +120,19 @@
         </div>
 
         <article>
-            <div>
+            <div class="bwatch ">
                 <h1>Bird Watching: A Family Friendly Activity</h1>
-                <img class="bird" src="images/mockingBird.jpg" alt="Mocking Bird" style="width:300px;height:200px;">
+                <picture>
+                        <source srcset="images/mockingBird.jpg" media="(Min-width: 
+                        800px) and (max-width: 999px)">
+                            <source srcset="images/mockingBird400.jpg" media="(min-width:
+                        500px) and (max-width: 799px)">
+                            <source srcset="images/mockingBird300.jpg" media="(min-width:
+                        700px) and (max-width: 999px)">
+                            <source srcset="images/mockingBird200.jpg" media="(min-width: 
+                        100px)">
+
+                <img class="bird" src="images/mockingBird.jpg" alt="Mocking Bird" style="width:300px;height:200px;"></picture>
                 <p>Looking for a way to enjoy a fun educational family activity?
                     Consider joining the local ornithology club. Lorem ipsum dolor
                     sit amet consectetur adipisicing elit. Aperiam voluptates maiores

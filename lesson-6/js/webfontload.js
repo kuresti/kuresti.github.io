@@ -2,6 +2,6 @@
 
         WebFont.load({
             google: {
-              families: ['Alegreya', 'Sans Serif']
+              families: ['Alegreya Sans', 'Roboto']
             }
           });
