@@ -33,18 +33,43 @@
     </header>
     <!--Nav bar with a responsive hamburger menu-->
     <nav>
-            <ul class="navigation">
-                <li><a href="#" onclick="menuToggle()">&#9776;</a></li>
-                <li><a href="https://kuresti.github.io/">Home</a></li>
-                <li><a href="preston.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="#">Storm Center</a></li>
-                <li><a class="active" href="gallery.html">Gallery</a></li>
-            </ul>
+        <ul class="navigation">
+            <li><a href="#" onclick="menuToggle()">&#9776;</a></li>
+            <li><a href="https://kuresti.github.io/">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a class="active" href="gallery.html">Gallery</a></li>
+        </ul>
+
+
+    </nav>
+    <main>
+            <h2>Preston, Idaho</h2>
+            <div class="hero">
+                <!--<picture><img src="images/idaho-landscape-mountains-1694642(1).jpg"
+                        alt="Southeast Idaho mountains"></picture>-->
+                <picture>
+                    <source srcset="images/idaho-landscape-mountains-200.jpg" media="(Min-width: 
+                300px) and (max-width: 499px)">
+                    <source srcset="images/idaho-landscape-mountains-500.jpg" media="(min-width:
+                500px) and (max-width: 799px)">
+                    <source srcset="images/idaho-landscape-mountains-800.jpg" media="(min-width:
+                800px) and (max-width: 999px)">
+                    <source srcset="images/cit230_image_franklinOriginal1100.jpg" media="(min-width: 
+                100px)">
+                    <img src="images/idaho-landscape-mountains-200.jpg" alt="South East Idaho Mountains">
+                </picture>
+
+    </main>
+    <footer>
+        <p>&copy; 2019 | Up To Date Weather | Preston, ID | Kimberly Uresti</p>
+        <p id="todaysDate">
+
+        </p>
+    </footer>
     
-    
-        </nav>
 
 </body>
 
