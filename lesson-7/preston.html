@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kim Uresti">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Description of page-->
+    <meta name="description" content="Provides up to date weather forecasting for the Presont, Id area.">
+    <title>Up To Date Weather, Preston</title>
+    <!--Link to Google Font page-->
+    <!--<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&7cRoboto&display=swap" rel="stylesheet">-->
+    <!--Link to favicon-->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!--Style Sheet Links-->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header with logo to the left and a motto-->
+    <header>
+
+        <picture>
+            <img src="images/Umbrella-128.png" alt="Up To Date Weather Logo">
+        </picture>
+        <div class="headings">
+            <h1>Up To Date Weather</h1>
+            <div class="motto">Accurate weather for every season!</div>
+
+        </div>
+    </header>
+    <div id="message">Come enjoy Preston Pancakes in the Park! Saturday at 9:00 a.m.
+        at the city park pavillion. </div>
+
+
+    <!--Nav bar with a responsive hamburger menu-->
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="menuToggle()">&#9776;</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+
+
+    </nav>
+    <!--Main section includes divs for hero image/ weather summary,
+    5-day forecast, article, contact information -->
+    <main>
+        <h2>Preston, Idaho</h2>
+        <div class="hero">
+            <!--<picture><img src="images/idaho-landscape-mountains-1694642(1).jpg"
+                    alt="Southeast Idaho mountains"></picture>-->
+            <picture>
+                <source srcset="images/cit230_image_franklinOriginal200.jpg" media="(Min-width: 
+            300px) and (max-width: 499px)">
+                <source srcset="images/cit230_image_franklinOriginal500.jpg" media="(min-width:
+            500px) and (max-width: 799px)">
+                <source srcset="images/cit230_image_franklinOriginal800.jpg" media="(min-width:
+            800px) and (max-width: 999px)">
+                <source srcset="images/cit230_image_franklinOriginal1100.jpg" media="(min-width: 
+            100px)">
+                <img src="images/cit230_image_franklinOriginal200.jpg" alt="Sunny Day">
+            </picture>
+            <div class="dailySummary">
+                <div class="dSummary1">
+                    <h3>Daily &nbsp; </h3>
+                </div>
+                <div class="dSummary2">
+                    <h3>Weather&nbsp;&nbsp;&nbsp;</h3>
+                </div>
+                <div class="dSummary1">Currently: &nbsp;</div>
+                <div class="dSummary2">Partly Cloudy</div>
+                <div class="dSummary1">High: &nbsp;</div>
+                <div class="dSummary2"><span id="t">39</span> &#8457;</div>
+                <div class="dSummary1">Wind Chill: &nbsp;</div>
+                <div class="dSummary2"><span id="chill"></span></div>
+                <div class="dSummary1">Precipitation: &nbsp;</div>
+                <div class="dSummary2">0%</div>
+                <div class="dSummary1">Humidity: &nbsp;</div>
+                <div class="dSummary2">23%</div>
+                <div class="dSummary1">Wind: &nbsp;</div>
+                <div class="dSummary2"><span id="s">7</span> mph</div>
+
+
+
+
+
+
+            </div>
+        </div>
+        <div class="fcontainer">
+            <h2>5 Day Forecast</h2>
+            <div class="forecast">
+                <div class="d">Mon</div>
+                <div class="d">Tues</div>
+                <div class="d">Wed</div>
+                <div class="d">Thurs</div>
+                <div class="d">Fri</div>
+
+                <div class="w"><img src="images/weather-few-clouds-128.png" alt="Partly Cloudy"></div>
+                <div class="w"><img src="images/weather-overcast-128.png" alt="Mostly Cloudy"></div>
+                <div class="w"><img src="images/weather-showers-scattered-128.png" alt="Rainy"></div>
+                <div class="w"><img src="images/weather-snow-128.png" alt="Snow"></div>
+                <div class="w"><img src="images/weather-few-clouds-128.png" alt="Partly Cloudy"></div>
+
+                <div class="t">70 &#8457;</div>
+                <div class="t">68 &#8457;</div>
+                <div class="t">51 &#8457;</div>
+                <div class="t">46 &#8457;</div>
+                <div class="t">43 &#8457;</div>
+            </div>
+        </div>
+
+        <article>
+            <div class="bwatch ">
+                <h1>Bird Watching: A Family Friendly Activity</h1>
+                <picture>
+                        <source srcset="images/mockingBird.jpg" media="(Min-width: 
+                        800px) and (max-width: 999px)">
+                            <source srcset="images/mockingBird400.jpg" media="(min-width:
+                        500px) and (max-width: 799px)">
+                            <source srcset="images/mockingBird300.jpg" media="(min-width:
+                        700px) and (max-width: 999px)">
+                            <source srcset="images/mockingBird200.jpg" media="(min-width: 
+                        100px)">
+
+                <img class="bird" src="images/mockingBird.jpg" alt="Mocking Bird" style="width:300px;height:200px;"></picture>
+                <p>Looking for a way to enjoy a fun educational family activity?
+                    Consider joining the local ornithology club. Lorem ipsum dolor
+                    sit amet consectetur adipisicing elit. Aperiam voluptates maiores
+                    quod explicabo dolore dolorum delectus quisquam tenetur animi fugit
+                    molestias, vitae dignissimos! Qui culpa porro a explicabo nemo corporis.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nesciunt sit quis maxime quidem veniam in voluptas error. Quas, eos rem?
+                    Facere voluptatibus pariatur esse. Dolore rerum eum ex ad iusto. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Laboriosam laudantium
+                    omnis commodi, dolore, praesentium porro ea tempore iusto consequuntur
+                    voluptatum necessitatibus eum sunt rem saepe, dolores sit ducimus nemo
+                    quibusdam?
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam incidunt autem voluptatum quo
+                    architecto sapiente sit, iure quam distinctio reprehenderit enim adipisci numquam maiores quis
+                    aliquid impedit aperiam repellendus! A!
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quis unde tempora
+                    exercitationem repudiandae delectus earum asperiores blanditiis. Aperiam eligendi eaque ipsa
+                    inventore quasi quo consequatur dolore sapiente ea tenetur!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi asperiores, recusandae odit
+                    voluptas provident aliquid vel? Id ad blanditiis voluptas, aut consectetur autem vel
+                    perspiciatis illum inventore, accusantium quod eligendi!
+                </p>
+            </div>
+        </article>
+        <div class="contact">
+            <div class="map">
+                <img src="images/SouthEastIdaho-Map.jpg" alt="Southeast Idaho map">
+            </div>
+            <div>
+                <h3>Up To Date Weather</h3>
+                <span><img src="images/LocationPin-128.png" alt="Location pin">123 Main
+                    Street<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Preston, Id 83456</span><br>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&phone;&nbsp;&nbsp;&nbsp;&nbsp;208-785-5546</span><br>
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;&#9993;&nbsp;&nbsp;&nbsp;&nbsp;forecast@uptodateweather.org</span>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://facebook.com" target="_blank"><img
+                            src="images/2facebook(1).jpg" alt="facebook" style="border: 2px solid #02182B;"></a>
+                    <a href="https://instagram.com" target="_blank"><img src="images/2instagram.jpg" alt="intagram"
+                            style="border: 2px solid #02182B;"></a>
+                    <a href="https://twitter.com" target="_blank"><img src="images/2twitter.jpg" alt="twitter"
+                            style="border: 2px solid #02182B;"></a>
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!--<div class="cBox">Hero image / weather summary</div>-->
+        <!--<div class="cBox">5-day forecast</div>-->
+        <!-- <div class="cBox">Article</div>-->
+        <!-- <div class="cBox">Contact Information</div>-->
+
+    </main>
+    <!--Footer, this is the weather site footer, not the assignment portal
+    footer.  Would be a good idea to use some of the portal footer code 
+changes-->
+    <footer>
+        <p>&copy; 2019 | Up To Date Weather | Preston, ID | Kimberly Uresti</p>
+        <p id="todaysDate">
+
+        </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfontload.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/lastModified.js"></script>
+    <script src="js/menuToggle.js"></script>
+    <script src="js/pancakeBanner.js"></script>
+
+    
+</body>
+
+</html>
