@@ -1,0 +1,24 @@
+h1 {
+    background: #448FA3;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 400px;
+}
+#box {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 10px;
+}
+picture {
+    border: solid thin black;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
