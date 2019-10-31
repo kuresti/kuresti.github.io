@@ -12,13 +12,13 @@ img {
     justify-items: center;
     grid-gap: 10px;
 }
-picture {
+div {
     border: solid thin black;
 }
-picture img[data-src] {
+div img[data-src] {
     filter: blur(0.2em);
 }
-picture img {
+div img {
     filter: blur(0em);
     transition: filter 0.5s;
 }
