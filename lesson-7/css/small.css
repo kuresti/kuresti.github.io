@@ -230,7 +230,7 @@ p {
     clear: both;
 }
 /* Weather Gallery Page */
-.wtitle h1 {
+.weather h1 {
     font-family: Alegreya;
-    color: whitesmoke;
+    color whitesmoke;
 }
