@@ -222,8 +222,6 @@ p {
     padding: 25px;
 }
 
-
-
 .clearfix:after {
     content: "";
     display: table;
@@ -231,6 +229,16 @@ p {
 }
 /* Weather Gallery Page */
 .weather h1 {
-    font-family: Alegreya;
-    color whitesmoke;
+    font-family: Alegreya, sans-serif;
+    color: whitesmoke;
+    text-align: center;
 }
+
+.galleryPics {
+    
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+}  
+    
