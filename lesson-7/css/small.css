@@ -232,13 +232,29 @@ p {
     font-family: Alegreya, sans-serif;
     color: whitesmoke;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .galleryPics {
-    
-}
-.wrapper {
     display: grid;
-    grid-template-columns: 320px 320px 320px;
-}  
+    grid-gap: 20px;
+    width: 80%;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    background: #68C5DB;  
+    border-radius: 6px;
+    margin: 0 auto;
+    overflow: auto;
+    align-content: center;
     
+    
+   }
+
+.galleryFoot {
+    margin-top: 2%;
+}
+.item {
+    width: 50%;
+    height: 50%;
+    border: 2px thin solid #02182B;
+    margin-right: 20px;
+}
