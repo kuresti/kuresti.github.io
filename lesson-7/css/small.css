@@ -252,7 +252,7 @@ p {
     margin-top: 2%;
 }
 .item {
-    border: 2px solid thick #02182B;
+    border: 2px solid #02182B;
     }
  .items:hover {
     box-shadow: 5px 5px 15px 5px #02182B;
