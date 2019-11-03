@@ -237,7 +237,7 @@ p {
 
 .galleryPics {
     display: grid;
-    width: 90%;
+    width: 80%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     background: #68C5DB;  
     border-radius: 6px;
