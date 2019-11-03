@@ -237,16 +237,15 @@ p {
 
 .galleryPics {
     display: grid;
-    grid-gap: 20px;
     width: 80%;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     background: #68C5DB;  
     border-radius: 6px;
     margin: 0 auto;
     overflow: auto;
-    align-content: center;
-    
-    
+    align-content: center; 
+    justify-items: center;
+      
    }
 
 .galleryFoot {
@@ -255,6 +254,17 @@ p {
 .item {
     width: 50%;
     height: 50%;
-    border: 2px thin solid #02182B;
-    margin-right: 20px;
+    border: 2px solid thick #02182B;
+    }
+ .items:hover {
+    box-shadow: 5px 5px 15px 5px #02182B;
+}
+.items {
+    border: 2px solid #02182B;
+}
+figcaption {
+    text-align: center;
+}
+.gPhoto {
+    border-bottom: 2px solid #02182B;
 }
