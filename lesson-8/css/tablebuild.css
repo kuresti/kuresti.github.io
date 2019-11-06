@@ -1,0 +1,13 @@
+body {
+    font-family: Ubuntu, sans-serif;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid #e7f0ed;
+}
+table, th, td {
+    border: 1px solid #e7f0ed;
+}
+thead tfoot {
+    background-color:  #628ca6;
+}
