@@ -4,10 +4,26 @@ body {
 table {
     border-collapse: collapse;
     border: 2px solid #e7f0ed;
+    text-align: center;
+    box-shadow: 5px 5px 15px  black;
+    margin: 0 auto;
 }
 table, th, td {
     border: 1px solid #e7f0ed;
+    padding: 10px;
 }
-thead tfoot {
-    background-color:  #628ca6;
+thead th {
+    background-color: #7fb9c2;
+    font-size: 2.0rem;
+}
+tbody th {
+    background-color: #628ca6;
+    color: white;
+}
+
+tfoot {
+    font-size: .75em;
+}
+tfoot td {
+    background-color: #7fb9c2;
 }
