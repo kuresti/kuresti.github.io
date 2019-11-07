@@ -5,7 +5,7 @@ table {
     border-collapse: collapse;
     border: 2px solid #e7f0ed;
     text-align: center;
-    box-shadow: 5px 5px 15px  black;
+    box-shadow: 5px 5px 10px  #628ca6;
     margin: 0 auto;
 }
 table, th, td {
@@ -26,4 +26,10 @@ tfoot {
 }
 tfoot td {
     background-color: #7fb9c2;
+}
+.light {
+    background-color: #e7ffed;
+}
+tr:nth-child(even) {
+    background-color: #e7f0ed;
 }
