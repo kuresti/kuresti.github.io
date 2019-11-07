@@ -9,7 +9,7 @@ table {
     margin: 0 auto;
 }
 table, th, td {
-    border: 1px solid #e7f0ed;
+    border: 2px solid #e7f0ed;
     padding: 10px;
 }
 thead th {
