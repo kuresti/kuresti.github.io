@@ -3,14 +3,15 @@ body {
 }
 table {
     border-collapse: collapse;
-    border: 2px solid #e7f0ed;
+    border: 2px solid #aab3b0; 
     text-align: center;
     box-shadow: 5px 5px 10px  #628ca6;
     margin: 0 auto;
+    padding: 15px;
 }
 table, th, td {
-    border: 2px solid #e7f0ed;
-    padding: 10px;
+    border: 2px solid rgb(190,190,190);
+    padding: 15px;
 }
 thead th {
     background-color: #7fb9c2;
