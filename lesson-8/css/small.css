@@ -23,10 +23,10 @@ footer {
     font-family: Roboto;
 }
 
-/*header img {
+header img {
     width: 100%;
     height: auto;
-}*/
+}
 
 section .headings {
     display: flex;
@@ -266,3 +266,4 @@ figcaption {
 .gPhoto {
     border-bottom: 2px solid #02182B;
 }
+/* --------- Storm Center Page --------*/
