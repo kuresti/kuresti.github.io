@@ -1,0 +1,268 @@
+body {
+    background-color: #448FA3;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: whitesmoke;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+footer {
+    background-color: #02182B;
+    color: #68C5DB;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+    max-width: 1080px;
+    font-family: Roboto;
+}
+
+/*header img {
+    width: 100%;
+    height: auto;
+}*/
+
+section .headings {
+    display: flex;
+    flex-direction: column;
+}
+
+section .headings,
+h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.motto {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: #D7263D;
+    margin-left: 20px;
+    font-size: .8rem;
+}
+
+div#message {
+    background-color: #D7263D;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+
+.active {
+    background: #D7263D;
+    color: whitesmoke;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1080px;
+    background-color: #02182B;
+}
+
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #68C5DB;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+
+}
+
+.navigation a:hover {
+    color: whitesmoke;
+    background-color: #D7263D;
+    font-weight: 700;
+}
+
+/* the onclick JS toggles the .responsive
+class from display none (.navigationli)
+to display blcok because the responisve
+class is added to the end of the class list
+like this in HTML #6.
+<ul class="navigation responsive">*/
+.responsive li {
+    display: block;
+}
+
+h2 {
+    font-size: 2rem;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    font-family: Alegreya, Sans-serif;
+}
+
+main {
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.hero,
+section,
+article,
+.contact {
+    padding: 2em;
+    max-width: 70%;
+    margin: 0 auto;
+    background-color: #68C5DB;
+    border: 3px solid #02182B;
+    box-shadow: 5px 5px 15px 5px #02182B;
+}
+
+.hero {
+
+    position: relative;
+
+}
+
+.hero img {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.dailySummary {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 100%;
+    position: absolute;
+    top: 5em;
+    left: 5em;
+    background: rgb(225, 239, 243);
+    color: #02182B;
+    font-size: .8em;
+    opacity: .8;
+    border-radius: 1em;
+    padding: .5rem;
+
+}
+
+.dSummary1 {
+    text-align: right;
+}
+
+.dSummary2 {
+    text-align: left;
+}
+
+.fcontainer {
+    display: none;
+}
+
+article {
+    margin-top: 20px;
+}
+
+p {
+    font-family: Roboto;
+}
+
+.bird {
+    float: right;
+    border-radius: 5px;
+    border: thin solid #02182B;
+    box-shadow: 5px 5px #02182B;
+    margin: 2%;
+
+}
+
+
+.birdWatch h1 {
+    color: #02182B;
+    font-family: Alegreya, sans-serif;
+}
+
+.map {
+    display: none;
+}
+
+.contact {
+    display: flex;
+    text-align: left;
+    padding: 20px;
+    margin: 50px 50px 50px 50px;
+    border: none;
+    box-shadow: none;
+    background-color: #448FA3;
+
+}
+
+.info {
+    padding: 25px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Weather Gallery Page */
+.weather h1 {
+    font-family: Alegreya, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.galleryPics {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    background: #68C5DB;  
+    border-radius: 6px;
+    margin: 0 auto;
+    overflow: auto;
+    align-content: center; 
+    justify-items: center;
+      
+   }
+
+.galleryFoot {
+    margin-top: 2%;
+}
+.item {
+    border: 2px solid #02182B;
+    }
+ .items:hover {
+    box-shadow: 5px 5px 15px 5px #02182B;
+}
+.items {
+    border: 2px solid #02182B;
+}
+figcaption {
+    text-align: center;
+}
+.gPhoto {
+    border-bottom: 2px solid #02182B;
+}
