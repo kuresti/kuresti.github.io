@@ -315,7 +315,7 @@ form label.top select {
     color: #02182B;
     width: 90%;
     max-width: 20rem;
-    background-color: lightgray;
+    /*background-color: lightgray;*/
 }
 
 form label.middle,
@@ -338,18 +338,11 @@ form label.middle select {
     width: 90%;
     max-width: 20rem;
     background-color: lightgray;
+
 }
 
-
-form .severity {
+form .slide {
     padding-bottom: 1rem;
-
-}
-
-form .stitle {
-    padding-top: 1rem;
-    font-size: 1rem;
-    color: whitesmoke;
 }
 
 form .danger {
@@ -380,16 +373,17 @@ form label.stormcomment textarea {
     max-width: 20rem;
 }
 
-form label.top input:required {
-    border-left: #D7263D;
+ input:required {
+     background-color: #fdd;
+   
 
 }
 
-form label.top input:required:valid {
-    border-left: #68C5DB;
+ input:required:valid {
+    background-color: lightgray;
 }
 /*-----------Thank You----------*/
 .help {
     margin: 0 auto;
-    
+
 }
