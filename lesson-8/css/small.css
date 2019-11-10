@@ -227,6 +227,7 @@ p {
     display: table;
     clear: both;
 }
+
 /* Weather Gallery Page */
 .weather h1 {
     font-family: Alegreya, sans-serif;
@@ -239,31 +240,156 @@ p {
     display: grid;
     width: 80%;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    background: #68C5DB;  
+    background: #68C5DB;
     border-radius: 6px;
     margin: 0 auto;
     overflow: auto;
-    align-content: center; 
+    align-content: center;
     justify-items: center;
-      
-   }
+
+}
 
 .galleryFoot {
     margin-top: 2%;
 }
+
 .item {
     border: 2px solid #02182B;
-    }
- .items:hover {
+}
+
+.items:hover {
     box-shadow: 5px 5px 15px 5px #02182B;
 }
+
 .items {
     border: 2px solid #02182B;
 }
+
 figcaption {
     text-align: center;
 }
+
 .gPhoto {
     border-bottom: 2px solid #02182B;
 }
+
 /* --------- Storm Center Page --------*/
+form {
+    background: #02182B;
+    width: 70%;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #02182B;
+    margin: 0 auto;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid whitesmoke;
+    border-radius: 7px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: whitesmoke;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: whitesmoke;
+    font-size: .8rem;
+}
+
+form label.top input,
+form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px whitesmoke;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #02182B;
+    width: 90%;
+    max-width: 20rem;
+    background-color: lightgray;
+}
+
+form label.middle,
+form div {
+    display: block;
+    padding-top: 1rem;
+    color: whitesmoke;
+    font-size: .8rem;
+}
+
+form label.middle input,
+form label.middle select {
+
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #02182B;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #02182B;
+    width: 90%;
+    max-width: 20rem;
+    background-color: lightgray;
+}
+
+
+form .severity {
+    padding-bottom: 1rem;
+
+}
+
+form .stitle {
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+form .danger {
+    padding-bottom: .5rem;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+form label.stormcomment textarea {
+    border: solid 1px #02182B;
+    height: 100px;
+    width: 90%;
+    max-width: 20em;
+    padding: .75rem;
+    font-size: 1rem;
+    background-color: lightgray;
+    border-radius: 7px;
+}
+
+.subbutton {
+    border: 1px solid whitesmoke;
+    background-color: #D7263D;
+    color: whitesmoke;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: #D7263D;
+
+}
+
+form label.top input:required:valid {
+    border-left: #68C5DB;
+}
+/*-----------Thank You----------*/
+.help {
+    margin: 0 auto;
+    
+}
